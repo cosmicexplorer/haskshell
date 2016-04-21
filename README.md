@@ -1,21 +1,24 @@
-ocamshell
-=========
+shells
+======
 
-I want to learn ocaml and this should be a relatively simple project.
+shit. lets be stallman
 
-# Scope
+# Stuff
 
-1. Fork-exec programs from command line in synchronous way. **[IN PROGRESS]**
+1. Fork-exec programs from command line in synchronous way.
 2. Fork-exec programs in async way (`&`) and monitor / send signals to jobs.
 3. Create pipelines (`|`) for sync and async invocation.
 4. Support semicolon, double ampersand, and double pipe operators (`;`, `&&`, `||`).
 5. Support all stream redirection operators, including into another process (this includes the subshell operator `()`).
-6. Support `$()`.
+6. Support `$()` and `` `` ``.
 
-I really should just be using a parser generator, but I don't wanna get into that since I just want to learn ocaml and for the tiny syntax mentioned above I don't really care.
+# Why
 
-Onwards?!
+- it's "easy"
+- parsing is hard
+- I wanna learn ocaml
+- idk
 
 # License
 
-GPLv3 (like anyone cares).
+GPLv3
